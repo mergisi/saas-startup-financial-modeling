@@ -1,16 +1,8 @@
-# **SaaS Startup Financial Modeling**
+# SaaS Startup Financial Modeling
 
 A comprehensive resource for financial modeling of a bootstrapped SaaS (Software as a Service) startup using Python.
 
-![GitHub last commit](https://img.shields.io/github/last-commit/your-username/saas-startup-financial-modeling)
-![GitHub contributors](https://img.shields.io/github/contributors/your-username/saas-startup-financial-modeling)
-![GitHub stars](https://img.shields.io/github/stars/your-username/saas-startup-financial-modeling?style=social)
-![License](https://img.shields.io/github/license/your-username/saas-startup-financial-modeling)
-
----
-
 ## Table of Contents
-
 - [Introduction](#introduction)
 - [Features](#features)
 - [Project Structure](#project-structure)
@@ -20,29 +12,23 @@ A comprehensive resource for financial modeling of a bootstrapped SaaS (Software
 - [Usage](#usage)
   - [Notebooks](#notebooks)
   - [Scripts](#scripts)
-- [Data](#data)
+  - [Data](#data)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
-
----
 
 ## Introduction
 
 This repository provides tutorials, code examples, and resources for performing financial modeling of a bootstrapped SaaS startup using Python. It is designed for entrepreneurs, financial analysts, and data scientists interested in leveraging Python to analyze and forecast the financial health of a SaaS business without external funding.
 
----
-
 ## Features
 
-- **Revenue Forecasting**: Time series analysis for predicting Monthly Recurring Revenue (MRR).
-- **Churn Analysis**: Identifying and analyzing customer churn patterns.
-- **Cohort Analysis**: Evaluating customer cohorts over time to understand retention.
-- **Unit Economics**: Calculating key metrics like Customer Acquisition Cost (CAC) and Lifetime Value (LTV).
-- **Data Preparation Scripts**: Tools to clean and prepare raw SaaS data.
-- **KPI Calculations**: Scripts to compute essential SaaS Key Performance Indicators.
-
----
+- Revenue Forecasting: Time series analysis for predicting Monthly Recurring Revenue (MRR).
+- Churn Analysis: Identifying and analyzing customer churn patterns.
+- Cohort Analysis: Evaluating customer cohorts over time to understand retention.
+- Unit Economics: Calculating key metrics like Customer Acquisition Cost (CAC) and Lifetime Value (LTV).
+- Data Preparation Scripts: Tools to clean and prepare raw SaaS data.
+- KPI Calculations: Scripts to compute essential SaaS Key Performance Indicators.
 
 ## Project Structure
 
@@ -69,51 +55,43 @@ saas-startup-financial-modeling/
 └── requirements.txt
 ```
 
----
-
 ## Getting Started
 
 ### Prerequisites
 
-- **Python**: Version 3.7 or higher
-- **Python Packages**:
-  - `pandas`
-  - `numpy`
-  - `matplotlib`
-  - `seaborn`
-  - `scikit-learn`
-  - `statsmodels`
-  - `requests`
-- **IDE/Editor**: Jupyter Notebook, VSCode, or PyCharm recommended
+- Python: Version 3.7 or higher
+- Python Packages:
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - statsmodels
+  - requests
+- IDE/Editor: Jupyter Notebook, VSCode, or PyCharm recommended
 
 ### Installation
 
-1. **Clone the Repository**:
-
+1. Clone the Repository:
    ```bash
    git clone https://github.com/your-username/saas-startup-financial-modeling.git
    ```
 
-2. **Change to the Project Directory**:
-
+2. Change to the Project Directory:
    ```bash
    cd saas-startup-financial-modeling
    ```
 
-3. **Create a Virtual Environment** (optional but recommended):
-
+3. Create a Virtual Environment (optional but recommended):
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
    ```
 
-4. **Install Dependencies**:
-
+4. Install Dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-
----
 
 ## Usage
 
@@ -121,14 +99,12 @@ saas-startup-financial-modeling/
 
 Interactive Jupyter notebooks covering SaaS-specific financial modeling topics are located in the `notebooks/` directory.
 
-1. **Open Jupyter Notebook**:
-
+1. Open Jupyter Notebook:
    ```bash
    jupyter notebook
    ```
 
-2. **Navigate to the Notebook**:
-
+2. Navigate to the Notebook:
    - Go to the `notebooks/` directory.
    - Open the desired `.ipynb` file:
      - `revenue_forecasting.ipynb`
@@ -136,71 +112,53 @@ Interactive Jupyter notebooks covering SaaS-specific financial modeling topics a
      - `cohort_analysis.ipynb`
      - `unit_economics.ipynb`
 
-3. **Run the Notebook**:
-
+3. Run the Notebook:
    - Execute cells sequentially or run all cells at once.
 
 ### Scripts
 
 Standalone Python scripts for common SaaS financial tasks are located in the `scripts/` directory.
 
-1. **Data Preparation**:
+- Data Preparation:
+  ```bash
+  python scripts/data_preparation.py --input data/raw_saas_data.csv --output data/saas_metrics.csv
+  ```
 
-   ```bash
-   python scripts/data_preparation.py --input data/raw_saas_data.csv --output data/saas_metrics.csv
-   ```
+- KPI Calculations:
+  ```bash
+  python scripts/kpi_calculations.py --datafile data/saas_metrics.csv
+  ```
 
-2. **KPI Calculations**:
-
-   ```bash
-   python scripts/kpi_calculations.py --datafile data/saas_metrics.csv
-   ```
-
----
-
-## Data
+### Data
 
 Sample datasets relevant to a bootstrapped SaaS startup are located in the `data/` directory.
 
-- **saas_metrics.csv**: Contains synthetic SaaS metrics data.
-- **README.md**: Information about the data sources and usage.
+- `saas_metrics.csv`: Contains synthetic SaaS metrics data.
+- `README.md`: Information about the data sources and usage.
 
-**Note**: The data is synthetic and intended for educational purposes only.
-
----
+Note: The data is synthetic and intended for educational purposes only.
 
 ## Contributing
 
 Contributions are welcome! Please read the [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines on how to contribute to this project.
 
----
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----
-
 ## Contact
 
-- **Author**: Mustafa Ergisi
-- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/mustafaergisi)
+- Author: Mustafa Ergisi
+- LinkedIn: mustafaergisi
+- GitHub: mergisi
 
----
+Happy Modeling!
 
-**Happy Modeling!**
-
----
-
-### Acknowledgments
+## Acknowledgments
 
 - Inspired by the needs of bootstrapped SaaS startups aiming to leverage data for financial insights.
 - Contributions from the open-source community are highly appreciated.
 
----
-
-### Disclaimer
+## Disclaimer
 
 This project is intended for educational purposes. Please ensure compliance with all relevant laws and regulations when using financial models in real-world scenarios.
-
----
