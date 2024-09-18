@@ -128,7 +128,7 @@ saas-startup-financial-modeling/
 
 1. Clone the Repository:
    ```bash
-   git clone https://github.com/your-username/saas-startup-financial-modeling.git
+   git clone https://github.com/mergisi/saas-startup-financial-modeling.git
    ```
 
 2. Change to the Project Directory:
