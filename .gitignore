@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VSCode settings
+.vscode/
+
+# macOS files
+.DS_Store
+
+# Python egg files
+*.egg-info/
+
+# Logs
+*.log
+
+# Environment files
+.env
+
+# Data files
+data/*.csv
+!data/saas_metrics.csv  # Exclude sample data from being ignored
