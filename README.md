@@ -5,6 +5,7 @@ A comprehensive resource for financial modeling of a bootstrapped SaaS (Software
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
+- [Sample Outputs](#sample-outputs)
 - [Project Structure](#project-structure)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
@@ -29,6 +30,59 @@ This repository provides tutorials, code examples, and resources for performing 
 - Unit Economics: Calculating key metrics like Customer Acquisition Cost (CAC) and Lifetime Value (LTV).
 - Data Preparation Scripts: Tools to clean and prepare raw SaaS data.
 - KPI Calculations: Scripts to compute essential SaaS Key Performance Indicators.
+
+## Sample Outputs
+
+Here are some sample outputs you can expect from this project:
+
+### 1. Revenue Forecasting
+
+Sample output:
+```
+Forecasted MRR for the next 6 months:
+July 2023:     $152,450
+August 2023:   $158,900
+September 2023: $165,750
+October 2023:   $173,100
+November 2023:  $180,950
+December 2023:  $189,300
+```
+
+### 2. Churn Analysis
+
+Sample output:
+```
+Monthly Churn Rates:
+January 2023:   2.5%
+February 2023:  2.3%
+March 2023:     2.7%
+April 2023:     2.4%
+May 2023:       2.2%
+June 2023:      2.1%
+```
+
+### 3. Cohort Analysis
+
+Sample output:
+```
+Retention rates for January 2023 cohort:
+Month 1: 100%
+Month 2: 95%
+Month 3: 92%
+Month 4: 88%
+Month 5: 85%
+Month 6: 83%
+```
+
+### 4. Unit Economics
+
+Sample output:
+```
+Key Metrics (as of June 2023):
+CAC: $250
+LTV: $1,500
+LTV:CAC Ratio: 6:1
+```
 
 ## Project Structure
 
@@ -149,8 +203,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Contact
 
 - Author: Mustafa Ergisi
-- LinkedIn: mustafaergisi
-- GitHub: mergisi
+- LinkedIn: https://www.linkedin.com/in/mustafaergisi/
+- GitHub: https://github.com/mergisi/ 
 
 Happy Modeling!
 
